@@ -1,0 +1,35 @@
+name: wra_data_sql
+description: A starting point for Dart libraries or applications.
+version: 1.0.0
+publish_to: "none"
+# repository: https://github.com/my_org/my_repo
+
+environment:
+  sdk: ^3.6.2
+
+# Add regular dependencies here.
+dependencies:
+  dartz: ^0.10.1
+  flutter:
+    sdk: flutter
+  path: ^1.9.0
+  path_provider: ^2.0.2
+  postgres: ^3.4.0
+  sqflite: ^2.3.3+1
+  sqflite_common_ffi: ^2.3.3
+  sqflite_common_ffi_web: ^0.4.5+3
+
+  wra_core:
+    path: ../wra_core
+  wra_core_data:
+    path: ../wra_core_data
+  wra_domain_interface:
+    path: ../wra_domain_interface
+  wra_entity_interface:
+    path: ../wra_entity_interface
+  wra_repository_interface_sql:
+    path: ../wra_repository_interface_sql
+
+dev_dependencies:
+  lints: ^3.0.0
+  test: ^1.24.0
